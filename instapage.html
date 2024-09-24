@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram</title>
+    <link rel="shortcut icon" href="virat.jpg" type="virat">
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            background-color: gray;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+            font-size: 9px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            
+        }
+        .mobile-phone{
+            height: 400px;
+            width: 180px;
+            background-color: white;
+            border: 5px solid black;
+            border-radius: 20px;
+        }
+        header{
+            background-color: orange;
+            height:6%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+
+        }
+        .camera{
+            height:20px;
+            width:20px;
+            border-radius: 50%;
+            background-color: black;
+        }
+        .flex-center{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+
+        }
+        main{
+            width:100%;
+            padding:10px;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        .profile-section{
+            width:30%
+        }
+        .section-0{
+            display: flex;
+        }
+        .detail-section{
+            width: 60%;
+            display: flex;
+            justify-content:space-around;
+            text-align: center;    
+        }
+        .section-1{
+            padding-top: 10px;
+            display: flex;
+        }
+        .edit{
+            width: 40%;
+            background-color: lightgray;
+            text-align: center;
+            border-radius: 3px;
+        }
+        .share{
+            width:40%;
+            background-color: lightgray;
+            text-align: center;
+            border-radius: 3px;
+        }
+        .section-2{
+            padding-top: 10px;
+            display: flex;
+        }
+        .photo2{
+            width: 25%;
+
+        }
+        .photo1{
+
+            width: 25%;
+        }
+        #odi{
+            padding-left: 10px;
+        }
+        #new{
+            border-color: black;
+            border-radius: 50%;
+            text-align: center;
+            border-style:  solid;    
+        }
+        .plus{
+            padding-left: 10px;   
+        }
+        #friend{
+            height:1px;
+            width:1px;
+        }
+        .section-3{
+            justify-content: center;
+            display: flex;
+            width:100%;
+            padding-top: 10px;
+        }
+        #dots{
+            border-radius: 10%;
+           height: 20px;
+           width: 20px;
+           padding-left: 100%;
+        }
+        #symbol{
+            padding-left: 50%;
+        }
+        #pics{
+            border-radius: 10%;
+            height: 55px;
+            width: 55px;
+        }
+        .section-4{
+            display: flex;
+            width:30%
+        }
+        
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="mobile-phone">
+        <header class="flex-center">
+            <div class="camera"></div>
+            
+        </header>
+        <main id="instagram">
+            <section>
+            <p>🖤..SrijaDarsi..💕</p>
+            </section>
+            <section class="section-0">
+                <div class="profile-section">
+                   <img src="" alt="virat kohli">
+                </div>
+                <div class="detail-section">
+                    <div>
+                        <div>4</div>
+                        <div>posts</div>
+                    </div>
+                    <div>
+                        <div>150</div>
+                        <div>followers</div>
+                    </div>
+                    <div>
+                        <div>10</div>
+                        <div>following</div>
+                    </div>
+                </div>   
+            </section>
+            <section class="section-1">
+                <div class="edit">edit profile</div>
+                <div class="share">share profile</div>
+                
+            </section>
+            <section class="section-2">
+                <div class="photo1">
+
+                    <div><img src="https://s.ndtvimg.com/images/entities/300/virat-kohli-967.png" alt="kohli">
+                    </div>
+                     <div id="odi">test</div>          
+                </div>
+                <div class="photo2">
+                    <img src="data:image/jpeg;base64,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" alt="kohli">
+                    <div id="odi">odi</div>
+                </div>
+                <div class="photo3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlS9HVVL4CNi73SSRXMWPfP4N3wHrVE6BeXfc-5x1eJLKQbI_6h_PcMKcXer1Kfapwi4E&usqp=CAU" alt="kohli">
+                    <div id="odi">t20</div>                
+                </div>
+                <div class="plus"><div id="new"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAQlBMVEX///9AQEA6Ojo8PDyHh4d1dXVfX19ycnKMjIx4eHg3NzcsLCxiYmKEhISlpaVDQ0MmJiacnJxQUFAyMjL4+PiQkJA2NeiNAAABFUlEQVR4nO3bSW6DQABEUbeHAMZ4jO9/1YTsrY6UoHah99a9qC8xiAWbDQAAAAAAAAAAAAAAAAAAAADUnC996wnLOl934631iEX1x7LtWo9Y1Fx4aD1iUQrzrb9wrzDetP7CrcJ06y8cFMZbf+FBYbxOYTyF+RTmU5hPYT6F+RTmU5hv/gIeWo/4g9u+or+XUu595dR0bh3yyjQea8qsemrct055YSz/5do65YXusav52V899XjXW/Vz+Kg4Xb4DL6fasXe9SH8j/Vlat/73ocJ8CvMpzKcwn8J8CvMpzKcwn8J8CvMpzKcwn8J8CvMpzDcXrvtf7udYxmfrEcuadlPrCQAAAAAAAAAAAAAAAAAAAAAE+AKwjQziZPsBqQAAAABJRU5ErkJggg==" alt="plus">
+                </div>
+                <div id="odi">new</div>
+            </div> 
+            </section>
+            
+            </section>
+            </section>
+            <section class="section-3">
+                <div ><img id="dots" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfBghau7Pxd5sT9sxHgPdsusO1iEq0n5PiXQ&s" alt=""></div>
+                <div id="symbol"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSri67BJZjdUZF6MWhTPwlXFTVeq-iHrV6APg&s" alt=""></div>
+            </section>
+            <section class="section-4">
+                <div >
+                    <img id='pics'src="https://images.deccanherald.com/deccanherald%2F2024-03%2F51c56fa0-3fe6-4c5a-8bd2-21efe523a7a7%2FVirat_Kohli_Hairdo.jpg?rect=94%2C0%2C540%2C720" alt="">
+                </div>
+                <div>
+                    <img id="pics" src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/316600/316605.png" alt="">
+                </div>
+                <div>
+                    <img id="pics" src="https://im.rediff.com/cricket/2023/jan/17kohli1.jpg?w=670&h=900" alt="">
+                </div>
+                
+            </section>
+            <section class="section-4">
+                <div >
+                    <img id="pics" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfz2Qqdg5FGmRMrM1KpmlscG_ldrQMwDCTYQ&s" alt="">                </div>
+                <div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtlbXfG0NBPLEK4LJmIXsy81S80xKztCJ9qA&s" alt="" id="pics">                </div>
+                <div>
+    <img id="pics" src="https://images.indianexpress.com/2024/05/VIRAT-KOHLI-ORANGE-CAP-PTI-CROP-1.jpg?w=414" alt="">
+                </div>
+            </section>
+            <section class="section-4">
+                <div >
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFWLnP-n-xiPiFCVPoXhzoaV7nnjDwsDFbXQ&s" alt="" id="pics">                </div>
+<div><img src="https://sc0.blr1.cdn.digitaloceanspaces.com/article/168875-lvubwkbudf-1642332586.jpg" alt="" id="pics"></div>                
+<div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcCDDiFBDca52L47Erm1JE56TfHJ51aOftew&s" alt="" id="pics">                </div>
+            </section>
+
+    </main>
+        
+        
+    </div>
+    
+
+</body>
+</html>
